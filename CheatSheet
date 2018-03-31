@@ -1,0 +1,4 @@
+cd = change directory
+git init = creating local repository
+
+git status = display current branch
