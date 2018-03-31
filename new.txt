@@ -1,0 +1,30 @@
+In your command prompt:
+1. Create a folder (mkdir foldername) in the place you want to put your local repository
+2. Go into the folder and do "git init"
+In github.com
+1. Go to github.com and create a repository
+2. Copy the link for the repository
+In your command prompt:
+3. Type in "git remote add origin [copied link]"
+4. Type "git pull origin master"
+5. To branch: "git checkout -B branchName"
+
+When you're ready to push your changes to the remote repository:
+1. git add fileNames
+2. git commit -m "your message - commit message"
+3. git push origin branchName
+
+
+When you've got to merge a pull request:
+1. Have it merged on github.com - remote
+2. Go to your local repository (on command prompt) (cd to the project folder)
+3. Type "git checkout master" to go back to the master branch
+4. Type "git pull origin master" to pull all the changes
+5. Type "git checkout branchName" to go back to the branch you were working on
+6. Merge changes with master "git merge master" 
+
+When you're not ready to commit but you gotta change branches:
+1. Stash the changes: git stash
+2. Change branches and do what you need to do
+3. When you're ready to restore the changes: git stash list
+4. git stash apply --index IndexOfStash
