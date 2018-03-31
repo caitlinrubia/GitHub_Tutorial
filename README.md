@@ -1,3 +1,4 @@
 # GitHub_Tutorial
 # Header
-# `Markdown language`
+## `This is the highlight symbol`
+### `Notes: Markdown language cheatsheet` 
